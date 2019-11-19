@@ -3,6 +3,12 @@ package org.example.fizzbuzz;
 import org.junit.Assert;
 import org.junit.Test;
 
+
+/**
+ * FizzBuzzTest
+ * 
+ * This test suite lists a few wanted outputs of the fizz buzz game
+ */
 public class FizzBuzzTest {
 
     @Test
@@ -31,6 +37,6 @@ public class FizzBuzzTest {
         Assert.assertEquals("1", FizzBuzz.fizzbuzz(1));
         Assert.assertEquals("2", FizzBuzz.fizzbuzz(2));
         Assert.assertEquals("4", FizzBuzz.fizzbuzz(4));
-    }
+    } 
 
 }
