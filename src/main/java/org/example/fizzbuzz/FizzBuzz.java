@@ -8,6 +8,6 @@ public class FizzBuzz {
 
     public static String fizzbuzz(int number) {
     	// TODO implement me
-	return Integer.toString(15);
+	    return Integer.toString(15);
     }
 }

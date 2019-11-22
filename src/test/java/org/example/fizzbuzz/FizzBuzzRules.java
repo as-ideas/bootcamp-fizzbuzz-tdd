@@ -5,7 +5,6 @@ import org.junit.Test;
 
 public class FizzBuzzRules {
 
-
      @Test
      public void fizzbuzz_shouldReturn_FIZZ_if_number_is_multiples_of_3() {
         Assert.assertEquals("Fizz", FizzBuzz.fizzbuzz(3));
