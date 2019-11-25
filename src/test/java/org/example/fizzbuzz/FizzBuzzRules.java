@@ -32,6 +32,6 @@ public class FizzBuzzRules {
      public void fizzbuzz_shouldReturn_Number_if_number_is_neither_multiple_of_3_or_5_or_both() {
         Assert.assertEquals("1", FizzBuzz.fizzbuzz(1));
         Assert.assertEquals("17", FizzBuzz.fizzbuzz(17));
-        Assert.assertEquals("42", FizzBuzz.fizzbuzz(42));
+        Assert.assertEquals("43", FizzBuzz.fizzbuzz(43));
      }
 }

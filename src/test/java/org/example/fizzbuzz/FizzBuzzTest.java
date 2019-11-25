@@ -14,7 +14,7 @@ public class FizzBuzzTest {
         
         for (int i = 0; i < expectedResults.size(); i++ ) {
             String expected = expectedResults.get(i);
-            String actual =  FizzBuzz.fizzbuzz(i);
+            String actual =  FizzBuzz.fizzbuzz(i+1);
 
             Assert.assertEquals(expected, actual);
         } 
